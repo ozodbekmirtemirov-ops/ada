@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#145C40"/><stop offset=".55" stop-color="#0D4430"/><stop offset="1" stop-color="#072A1D"/></linearGradient>
+<radialGradient id="glow" cx="512" cy="470" r="330" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F3D9A0" stop-opacity=".55"/><stop offset="1" stop-color="#F3D9A0" stop-opacity="0"/></radialGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E2B0"/><stop offset="1" stop-color="#C69A55"/></linearGradient>
+<linearGradient id="field" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E7A55"/><stop offset="1" stop-color="#0B3A28"/></linearGradient>
+<linearGradient id="row" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E9D6A8" stop-opacity=".95"/><stop offset="1" stop-color="#E9D6A8" stop-opacity=".25"/></linearGradient>
+<clipPath id="c"><rect width="1024" height="1024" rx="230"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
+<circle cx="512" cy="470" r="330" fill="url(#glow)"/>
+<path d="M352 520a160 160 0 0 1 320 0z" fill="url(#sun)"/>
+<path d="M0 520h1024v504H0z" fill="url(#field)"/>
+<path d="M120 520h784" stroke="#F4E7C6" stroke-width="10" stroke-linecap="round"/>
+<g fill="url(#row)">
+<path d="M500 528 L300 1024 L360 1024 Z"/><path d="M506 528 L430 1024 L480 1024 Z"/><path d="M512 528 L540 1024 L590 1024 Z"/><path d="M518 528 L660 1024 L720 1024 Z"/>
+<path d="M494 528 L160 1024 L230 1024 Z" opacity=".7"/><path d="M530 528 L790 1024 L860 1024 Z" opacity=".7"/>
+</g>
+<text x="512" y="300" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="700" font-size="150" letter-spacing="36" fill="#F6EBD0">ADA</text>
+</g>
+</svg>
