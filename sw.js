@@ -1,4 +1,4 @@
-const V='ada-v2.1';const SHELL=['./','index.html','app.css','app.js','manifest.webmanifest','favicon.svg','icon-192.png'];
+const V='ada-v2.2';const SHELL=['./','index.html','app.css','app.js','manifest.webmanifest','favicon.svg','icon-192.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(V).then(c=>c.addAll(SHELL)).catch(()=>{})));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
 self.addEventListener('message',e=>{if(e.data==='skip')self.skipWaiting();});
